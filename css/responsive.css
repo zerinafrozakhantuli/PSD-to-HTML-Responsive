@@ -50,13 +50,61 @@
     margin-left: 22px;
 }
 }
+
+
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) { 
+
+    .navbar-nav .nav-item .nav-link{
+    text-align: center;
+    background-color: skyblue;
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.banner-content{
+    text-align: center;
  }
+ .testi-img{
+    margin-top: 15px;
+}
+.f_content,
+.f-logo {
+    text-align: center;
+}
+.footer-head{
+    text-align: center;
+}
+.f-menu ul li{
+    text-align: center;
+}
+.f-icon{
+    margin-left: 120px;
+}
+
+}
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) { 
+    .service-icon {
+    left: 32%;
+}
+.about-content{
+    margin-top: -50px;
+}
+.piramid{
+    
+    top: -7%;
+    left: 44%;
+}
+footer{
+    font-size: 14px;
  }
+ .f-icon a {
+    height: 37px;
+    width: 28px;
+}
+}
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) { 
